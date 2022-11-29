@@ -472,7 +472,7 @@ body {
 .rectangle {
   width: 100%;
   height: auto;
-  background: rgba(201, 233, 255, 0.15);
+  background: rgba(135, 185, 219, 0.15);
   margin-bottom: 88px;
 }
 
@@ -509,13 +509,114 @@ body {
 
 /* reklama-start */
 
-.reklama{
+.reklama-2 {
   width: 100%;
+  height: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 0px 200px 80px 200px;
+  margin-bottom: 42px;
 }
 
+.reklama-text {
+  width: 45%;
+}
 
+.reklama-text h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #031126;
+}
+
+.reklama-text-p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: rgba(3, 17, 38, 0.65);
+  margin: 16px 0 16px 0;
+}
+
+.rek-numbers {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.rek-numbers .rek-number-text p:nth-child(1) {
+  font-family: "Product Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+  color: rgba(3, 17, 38, 0.75);
+  margin-bottom: 12px;
+}
+
+.rek-numbers .rek-number-text p:nth-child(2) {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: rgba(3, 17, 38, 0.65);
+}
+
+.rek-numbers .rek-number-text:nth-child(2) {
+  margin: 18px 0;
+}
+
+.reklama-img {
+  width: 50%%;
+}
+
+.reklama-img img {
+  width: 100%;
+  border-radius: 42px;
+}
+
+/* reklama-2 end */
+
+/* Appointment - start */
+
+.appointment {
+  width: 100%;
+  height: auto;
+  background: rgba(201, 233, 255, 0.15);
+  padding: 100px 200px;
+}
+
+.appointment-title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 130%;
+  color: #031126;
+  text-align: center;
+}
+
+.appointment-text {
+  width: 55%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: center;
+  color: rgba(3, 17, 38, 0.75);
+  margin: 14px auto;
+}
